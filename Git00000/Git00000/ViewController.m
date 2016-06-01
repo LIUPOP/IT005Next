@@ -30,6 +30,12 @@
     button.backgroundColor = [UIColor greenColor];
     [self.view addSubview:button];
     
+    
+    UIButton *button1 = [UIButton buttonWithType: UIButtonTypeCustom];
+    button1.frame = CGRectMake(10, 260, 100, 50);
+    button1.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:button1];
+    
 }
 
 - (void)didReceiveMemoryWarning {
